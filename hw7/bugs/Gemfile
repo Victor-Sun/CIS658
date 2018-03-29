@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.4.1'
 group :production do
-gem 'pg', '~> 0.18'
-# other gems might be here in your file
+	gem 'pg'
 end
 
 git_source(:github) do |repo_name|
